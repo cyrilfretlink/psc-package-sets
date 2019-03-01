@@ -390,6 +390,17 @@
     "repo": "https://github.com/purescript/purescript-datetime.git",
     "version": "v4.1.1"
   },
+  "datetime-iso": {
+    "dependencies": [
+      "argonaut-codecs",
+      "datetime",
+      "newtype",
+      "parsing",
+      "prelude"
+    ],
+    "repo": "https://github.com/jmackie/purescript-datetime-iso.git",
+    "version": "v3.0.0"
+  },
   "debug": {
     "dependencies": [
       "prelude"
