@@ -2681,6 +2681,15 @@
     "repo": "https://github.com/purescript-contrib/purescript-unsafe-reference",
     "version": "v3.0.1"
   },
+  "uuid": {
+    "dependencies": [
+      "effect",
+      "maybe",
+      "prelude"
+    ],
+    "repo": "https://github.com/spicydonuts/purescript-uuid",
+    "version": "v5.2.2"
+  },
   "validation": {
     "dependencies": [
       "bifunctors",

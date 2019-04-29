@@ -11,4 +11,9 @@ in  { react-basic-hooks =
         ]
         "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
         "v0.6.0"
+    , uuid =
+        mkPackage
+        [ "effect", "maybe", "prelude" ]
+        "https://github.com/spicydonuts/purescript-uuid"
+        "v5.2.2"
     }
