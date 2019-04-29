@@ -7,7 +7,7 @@ format:
 generate: SHELL:=/usr/bin/env bash
 generate:
 	@dhall-to-json --pretty <<< "./src/packages.dhall" > packages.json
-	@psc-package format
+	@npx --no-install psc-package format
 	@echo generated to packages.json
 
 setup: all setup-only
@@ -28,4 +28,4 @@ psc-package2nix: setup
 ci: generate setup-only
 	echo "Checking if packages.json has changed..."
 	git diff --exit-code packages.json
-	psc-package verify
+	npx --no-install psc-package verify

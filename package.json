@@ -1,0 +1,21 @@
+{
+  "name": "psc-package-sets",
+  "version": "1.0.0",
+  "engines": {
+    "node": "8.12.0",
+    "npm": "6.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fretlink/psc-package-sets.git"
+  },
+  "author": "FretLink",
+  "bugs": {
+    "url": "https://github.com/fretlink/psc-package-sets/issues"
+  },
+  "homepage": "https://github.com/fretlink/psc-package-sets#readme",
+  "optionalDependencies": {
+    "psc-package": "^3.0.1",
+    "purescript": "0.12.5"
+  }
+}
