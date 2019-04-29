@@ -45,7 +45,7 @@ in  { event =
         , "record"
         ]
         "https://github.com/paf31/purescript-foreign-generic.git"
-        "v8.1.0"
+        "v9.0.0"
     , memoize =
         mkPackage
         [ "either"
@@ -59,6 +59,11 @@ in  { event =
         ]
         "https://github.com/paf31/purescript-memoize.git"
         "v5.0.0"
+    , safely =
+        mkPackage
+        [ "freet", "lists" ]
+        "https://github.com/paf31/purescript-safely.git"
+        "v4.0.0"
     , string-parsers =
         mkPackage
         [ "arrays"
@@ -84,4 +89,9 @@ in  { event =
         [ "prelude", "unsafe-coerce" ]
         "https://github.com/paf31/purescript-leibniz.git"
         "v5.0.0"
+    , folds =
+        mkPackage
+        [ "control", "ordered-collections", "profunctor" ]
+        "https://github.com/paf31/purescript-folds.git"
+        "v5.2.0"
     }

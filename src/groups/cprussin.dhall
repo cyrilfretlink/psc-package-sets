@@ -34,4 +34,43 @@ in  { httpure =
         ]
         "https://github.com/cprussin/purescript-httpure.git"
         "v0.8.1"
+    , monad-logger =
+        mkPackage
+        [ "aff"
+        , "ansi"
+        , "argonaut"
+        , "arrays"
+        , "console"
+        , "control"
+        , "effect"
+        , "foldable-traversable"
+        , "foreign-object"
+        , "integers"
+        , "js-date"
+        , "maybe"
+        , "newtype"
+        , "ordered-collections"
+        , "prelude"
+        , "strings"
+        , "transformers"
+        , "tuples"
+        ]
+        "https://github.com/cprussin/purescript-monad-logger.git"
+        "v1.2.0"
+    , node-electron =
+        mkPackage
+        [ "effect"
+        , "foreign"
+        , "halogen"
+        , "maybe"
+        , "options"
+        , "prelude"
+        , "transformers"
+        , "unsafe-coerce"
+        , "web-dom"
+        , "web-events"
+        , "web-html"
+        ]
+        "https://github.com/cprussin/purescript-node-electron.git"
+        "v0.0.2"
     }
