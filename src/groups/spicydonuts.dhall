@@ -10,7 +10,7 @@ in  { react-basic-hooks =
         , "unsafe-reference"
         ]
         "https://github.com/spicydonuts/purescript-react-basic-hooks.git"
-        "v0.6.0"
+        "v0.6.1"
     , uuid =
         mkPackage
         [ "effect", "maybe", "prelude" ]
