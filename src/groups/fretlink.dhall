@@ -15,6 +15,6 @@ in  { fretlink-commons =
         , "read"
         , "uuid"
         ]
-        "https://github.com/fretlink/purescript-fretlink-commons/.git"
-        "v1.0.0"
+        "https://github.com/fretlink/purescript-commons.git"
+        "v1.0.1"
     }

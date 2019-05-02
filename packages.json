@@ -949,8 +949,8 @@
       "read",
       "uuid"
     ],
-    "repo": "https://github.com/fretlink/purescript-fretlink-commons/.git",
-    "version": "v1.0.0"
+    "repo": "https://github.com/fretlink/purescript-commons.git",
+    "version": "v1.0.1"
   },
   "functions": {
     "dependencies": [
