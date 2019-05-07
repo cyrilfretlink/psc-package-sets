@@ -949,7 +949,7 @@
       "read",
       "uuid"
     ],
-    "repo": "https://github.com/fretlink/purescript-commons.git",
+    "repo": "git@github.com:fretlink/purescript-commons.git",
     "version": "v2.0.0"
   },
   "functions": {
