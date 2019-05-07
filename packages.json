@@ -950,7 +950,7 @@
       "uuid"
     ],
     "repo": "https://github.com/fretlink/purescript-commons.git",
-    "version": "v1.0.1"
+    "version": "v2.0.0"
   },
   "functions": {
     "dependencies": [
