@@ -18,13 +18,6 @@ setup-only:
 	@cp packages.json .psc-package/testing/.set/packages.json
 	@echo setup testing package set
 
-psc-package2nix: setup
-	@echo '{ "name": "test-package", "set": "testing", "source": "", "depends": ' > psc-package.json
-	@jq 'keys' packages.json >> psc-package.json
-	@echo '}' >> psc-package.json
-	psc-package2nix
-	nix-shell install-deps.nix --run "echo installation complete."
-
 ci: generate setup-only
 	echo "Checking if packages.json has changed..."
 	git diff --exit-code packages.json
